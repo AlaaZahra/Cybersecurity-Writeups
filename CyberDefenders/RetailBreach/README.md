@@ -230,7 +230,7 @@ Two visits appeared:
 
 
 
-!\[Administrator visits to the reviews page](images/06-admin-reviews-visits-utc.png)
+!\[Administrator visits to the reviews page](images/06-admin-reviews-page-visits.png)
 
 
 
@@ -290,7 +290,7 @@ The attacker reused the same `PHPSESSID` and accessed protected administrative r
 
 
 
-!\[Attacker reusing the stolen administrator session](images/08-attacker-session-reuse.png)
+!\[Attacker reusing the stolen administrator session](images/08-attacker-session-cookie-reuse.png)
 
 
 
@@ -614,5 +614,9 @@ The incident also demonstrates how several individually recognizable weaknesses 
 
 > All IP addresses, tokens, and artifacts shown here belong to an authorized training environment.
 
+\## Full Investigation Report
 
+
+
+\[Download the complete RetailBreach Network Forensics Report](./RetailBreach-Network-Forensics-Report.pdf)
 
