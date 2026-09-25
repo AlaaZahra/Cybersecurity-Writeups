@@ -1,124 +1,68 @@
-\# Cybersecurity Write-ups
+# Cybersecurity Write-ups
 
+![Focus](https://img.shields.io/badge/Focus-Blue%20Team%20%26%20SOC-0A66C2)
+![Topics](https://img.shields.io/badge/Topics-Forensics%20%7C%20Web%20%7C%20Cloud-6f42c1)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
+Welcome to my cybersecurity learning portfolio.
 
-Welcome to my Cybersecurity learning portfolio.
+This repository documents my hands-on work across network forensics, cloud investigations, web security, and Capture The Flag challenges. Each write-up focuses on the investigation methodology, supporting evidence, tools, and lessons learned—not only the final answers.
 
+## Featured Investigations
 
+- [CyberDefenders Write-ups](./CyberDefenders/)
+  - [AWSRaid — AWS CloudTrail Incident Investigation](./CyberDefenders/AWSRaid/)
+  - [JetBrains — Network Forensics Investigation](./CyberDefenders/JetBrains/)
+  - [RetailBreach — Network Forensics Investigation](./CyberDefenders/RetailBreach/)
 
-This repository documents my hands-on journey through Capture The Flag (CTF) challenges, penetration testing labs, and web security exercises.
+## Platforms
 
+- [CyberDefenders](./CyberDefenders/)
+- [CyberTalents](./CyberTalents/)
+- [Hack The Box](./HackTheBox/)
+- [TryHackMe](./TryHackMe/)
 
+## Focus Areas
 
-The purpose of this repository is not only to solve challenges, but also to document my methodology, thought process, tools, and lessons learned while studying cybersecurity.
+- Security Operations and incident investigation
+- Network and digital forensics
+- Cloud security and AWS CloudTrail analysis
+- Web application security
+- Threat detection and attack-chain reconstruction
+- MITRE ATT&CK mapping
 
+## Repository Structure
 
-
-\---
-
-
-
-\## Platforms
-
-
-
-\- CyberTalents
-
-\- Hack The Box
-
-\- PortSwigger Web Security Academy
-
-\- TryHackMe
-
-
-
-\---
-
-
-
-\## Categories
-
-
-
-\- Web Security
-
-\- Network Security
-
-\- Cryptography
-
-\- Digital Forensics
-
-\- Reverse Engineering
-
-\- Miscellaneous
-
-
-
-\---
-
-
-
-\## Repository Structure
-
-
-
+```text
+Cybersecurity-Writeups/
+├── CyberDefenders/
+│   ├── AWSRaid/
+│   ├── JetBrains/
+│   └── RetailBreach/
+├── CyberTalents/
+├── HackTheBox/
+└── TryHackMe/
 ```
 
-Cybersecurity-Writeups
+## Documentation Approach
 
-│
+Each investigation may include:
 
-├── CyberTalents
+- A detailed `README.md` write-up.
+- Screenshots of the relevant evidence.
+- Queries, display filters, or commands used during analysis.
+- A reconstructed attack timeline.
+- Indicators of compromise and MITRE ATT&CK mappings.
+- Detection and remediation recommendations.
+- A complete PDF investigation report when available.
 
-├── HackTheBox
+## Disclaimer
 
-├── PortSwigger
+All write-ups are based on intentionally vulnerable systems, legal training platforms, and authorized lab environments. No real-world systems were targeted.
 
-└── TryHackMe
+---
 
-```
-
-
-
-\---
-
-
-
-\## Objectives
-
-
-
-\- Improve penetration testing methodology
-
-\- Practice vulnerability assessment
-
-\- Document real-world attack techniques
-
-\- Build a public cybersecurity portfolio
-
-\- Track my learning progress
-
-
-
-\---
-
-
-
-\## Disclaimer
-
-
-
-All write-ups are based on intentionally vulnerable environments provided by legal training platforms.
-
-
-
-No real-world systems were targeted.
-
-
-
-\---
-
-
+**Author:** Alaa Zahra  
+**Track:** SOC Analyst / Cloud and Network Forensics
 
 ⭐ If you find these write-ups useful, feel free to star the repository.
-
