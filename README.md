@@ -14,6 +14,7 @@ This repository documents my hands-on work across network forensics, cloud inves
   - [AWSRaid — AWS CloudTrail Incident Investigation](./CyberDefenders/AWSRaid/)
   - [JetBrains — Network Forensics Investigation](./CyberDefenders/JetBrains/)
   - [RetailBreach — Network Forensics Investigation](./CyberDefenders/RetailBreach/)
+    - [PsExec Hunt — SMB Lateral Movement Investigation](./PsExecHunt/)
 
 ## Platforms
 
