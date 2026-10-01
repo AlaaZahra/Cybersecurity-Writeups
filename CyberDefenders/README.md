@@ -4,9 +4,9 @@
 ![Focus](https://img.shields.io/badge/Focus-Blue%20Team-0A66C2)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-This directory contains my network, cloud, and digital-forensics investigations completed on the CyberDefenders platform.
+This directory contains my network, cloud, and digital forensics investigations completed on the CyberDefenders platform.
 
-Each lab documents the investigation process, evidence, queries or filters, reconstructed attack chain, indicators of compromise, MITRE ATT&CK mapping, and defensive recommendations.
+Each lab documents the investigation process, supporting evidence, queries or filters, reconstructed attack chain, indicators of compromise, MITRE ATT&CK mapping, and defensive recommendations.
 
 ## Labs
 
@@ -14,14 +14,16 @@ Each lab documents the investigation process, evidence, queries or filters, reco
 |---|---|---|---|
 | [AWSRaid](./AWSRaid/) | Cloud Forensics | Splunk / AWS CloudTrail | [PDF](./AWSRaid/AWSRaid-CloudTrail-Investigation-Report.pdf) |
 | [JetBrains](./JetBrains/) | Network Forensics | Wireshark | [PDF](./JetBrains/Network_Forensics_JetBrains_Report.pdf) |
+| [PoisonedCredentials](./PoisonedCredentials/) | Network Forensics / Credential Access | Wireshark | [PDF](./PoisonedCredentials/PoisonedCredentials-Network-Forensics-Report.pdf) |
 | [RetailBreach](./RetailBreach/) | Network Forensics / Web Attacks | Wireshark | [PDF](./RetailBreach/RetailBreach-Network-Forensics-Report.pdf) |
 
 ## Investigation Focus
 
-- Network traffic analysis and HTTP stream reconstruction.
+- Network traffic analysis and protocol reconstruction.
 - AWS CloudTrail investigation using Splunk SPL.
-- Authentication and session-compromise analysis.
-- Web-shell, XSS, path traversal, and cloud persistence detection.
+- Authentication, session-compromise, and credential-abuse analysis.
+- NBNS/LLMNR poisoning and SMB/NTLM investigation.
+- Web-shell, XSS, path-traversal, and cloud-persistence detection.
 - Evidence-based timelines and MITRE ATT&CK mapping.
 
 ---
