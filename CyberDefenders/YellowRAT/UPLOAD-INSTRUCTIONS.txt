@@ -1,0 +1,28 @@
+YELLOW RAT GITHUB UPLOAD
+========================
+
+1. Copy the complete YellowRAT folder into:
+
+   D:\digilians\CTF\Cybersecurity-Writeups\CyberDefenders\YellowRAT
+
+2. Add this line to CyberDefenders\README.md under the Labs section:
+
+   - [Yellow RAT — Malware Intelligence Investigation](./YellowRAT/)
+
+3. From the repository root, run:
+
+   cd /d D:\digilians\CTF\Cybersecurity-Writeups
+   git pull origin main
+   git status
+   git add .\CyberDefenders\YellowRAT .\CyberDefenders\README.md
+   git diff --cached --stat
+   git commit -m "Add Yellow RAT malware intelligence investigation"
+   git push origin main
+   git status
+
+4. The final status should report that the branch is up to date and the working tree is clean.
+
+Notes:
+- Review git status before committing so unrelated deletions or edits are not included.
+- The LF/CRLF warning on Windows is informational and normally safe.
+- Keep the C2 domain defanged in public documentation.
